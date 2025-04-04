@@ -1,4 +1,6 @@
-public class Tiger extends Animal implements Walk {
+import java.io.Serializable;
+
+public class Tiger extends Animal implements Walk, Serializable {
 
     private int numberOfStripes;
     private double speedT;

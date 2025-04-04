@@ -1,4 +1,6 @@
-public class Dolphin extends Animal implements Swim{
+import java.io.Serializable;
+
+public class Dolphin extends Animal implements Swim, Serializable{
 
     private String color;
     private double swimmingSpeed;
@@ -46,4 +48,5 @@ public class Dolphin extends Animal implements Swim{
                 ", speedD=" + swimmingSpeed +
                 '}';
     }
+
 }

@@ -1,4 +1,6 @@
-public class Penguin extends Animal implements Walk,Swim{
+import java.io.Serializable;
+
+public class Penguin extends Animal implements Walk, Swim, Serializable{
 
     private boolean isSwimming;
     private double walkSpeed;
